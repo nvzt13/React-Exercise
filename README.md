@@ -51,6 +51,24 @@ gender, email, phone number. Use h1 for the name and p for the rest of the infor
 
 1. <a href=""> Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)</a>
 
+# Answers 
+
+
+1. React is a JavaScript library for building user interfaces
+
+2. Libraries are the concept of keeping frequently used elements such as functions, macros and data types in one place and calling them whenever you want, instead of writing them over and over again.
+
+3. Single page application or single page application are websites or web-based applications that work by dynamically updating the current page instead of completely refreshing the page when interacting with the user.
+
+4. Each of the forces that form a resultant." Resultant means: "Coming together, coming together, uniting.
+
+5. The latest version of react is react 18
+
+6. Document Object Model, "DOM" also means "Document Object Model".  Internet browsers regard the entered website as a document and all elements in this document as objects.  Accordingly, all elements such as images, text, and forms are objects.
+
+7. The virtual DOM is a lightweight copy of the real DOM that allows React to make changes to the UI without reloading the entire page.
+
+8. Web applications have a client-server architecture.  Their code is divided into two components: client-side scripts and server-side scripts.
 
 
 

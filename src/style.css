@@ -1,0 +1,10 @@
+
+body{
+    background-color: #fff;
+}
+.header-wrapper{
+    background-color: chocolate;
+}
+.user-card img{
+    overflow: hidden;
+}

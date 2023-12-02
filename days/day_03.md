@@ -3,20 +3,140 @@
 ## Exercises: Level 1
 
 1. What is a module?
+
+```
+Module is the name given to a part of a software that contains one or more routine operations. One or more modules can be developed independently of each other and used to create software.
+```
 2. What is package?
+
+```
+A Package is a module or a collection of modules. For instance, React, ReactDOM are packages.
+```
 3. What is the difference between a module and a package.
+
+```
+Packages are a much more comprehensive structure than modules. Because there is (usually) more than one module in a package.
+```
 4. What is NPM?
+
+```
+NPM (Node Package Manager) is a package manager for Node.js. Node.js is a platform for running JavaScript.
+```
 5. What is Webpack?
+
+```
+Webpack is a module packager used to unify JavaScript files used in web applications.
+```
 6. How do you create a new React project?
+
+```
+After installing create-react-app, you can start creating a new React project by running the “create-react-app my-app” command in your terminal.
+```
 7. What are the files and folders inside a project folder(package.json, package-lock.json or yarn.lock, .gitignore,node_modules and public)?
+
+```
+- package.json- List of packages the applications uses
+- package-lock.json - a means to lock the version of the package
+- gitignore - React boilerplate comes with git initiated, and the .gitingore allows files and folders not to be pushed to GitHub
+- node_modules - stores all the necessary node packages of the React applications.
+- public - It is a folder where files such as html, css, images and javascript are kept, which can be accessed through the application. Index.html, which is the main framework of the React application, is also kept in this folder.
+```
 8. What is your favorite code editor (I believe that it is Visual Studio Code)?
+```
+- Yes of course
+```
 9. Add different Visual Studio Code extensions to improve your productivity(eg. prettier, ESLint etc).
+
+```
+added
+```
 10. Try to make a different custom module in a different file and import it to index.js.
 
 ## Exercises: Level 2
 
 1. Import and render the following images
-   ![Front end](../images/frontend_technologies.png)
+   
+```
+
+  // index.html 
+  <!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>30 Days Of React App</title>
+
+    <style>
+   body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 100vh;
+  }
+  .front-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .front-end div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .front-end h3{
+    margin-bottom: 100px;
+  }
+  .front-end img{
+    width: 10%;
+  }
+
+    </style>
+  </head>
+  
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+   // index.js
+import React from 'react'
+import ReactDOM from 'react-dom'
+// To get the root element from the HTML document
+import html from './image/html_logo.png'
+import css from './image/css_logo.png'
+import js from './image/js_logo.png'
+import react from './image/react_logo.png'
+
+
+const frontend = (
+    <div className='front-end'>
+        <h3>Front End Tecnologies</h3>
+       <div>
+        <img src={html} alt=""/>
+        <img src={css} alt=""/>
+        <img src={js} alt=""/>
+        <img src={react} alt=""/>
+        </div>
+    </div>
+)
+
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(frontend,rootElement)
+
+```
+<img src="../src/image/level2_1..png">
 
 2. Use h1, p, input and button HTML elements to create the following design using JSX
 

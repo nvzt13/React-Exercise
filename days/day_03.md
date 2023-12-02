@@ -140,6 +140,108 @@ ReactDOM.render(frontend,rootElement)
 
 2. Use h1, p, input and button HTML elements to create the following design using JSX
 
+```
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" hrefF="style.css">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>30 Days Of React App</title>
+
+    <style>
+  
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(118, 212, 149);
+      }
+      .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        margin-top: 60px;
+      }
+      .form input{
+        padding: 5px 0;
+        margin: 0 10px;
+        max-width: 33%;
+        border-radius: 10px;
+      }
+      .btn{
+        padding: 5px 100px;
+        margin-top: 25px;
+        background-color:  rgb(201, 0, 0);
+        border-radius: 10px;
+        color: aliceblue;
+      }
+    </style>
+   
+  </head>
+  
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+// index.js
+
+// index.js
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const header = (
+    <div className='header'> 
+         <h1>SUBSCRIBE</h1>
+        <p>Sign up with your email address to receive news and updates</p>
+    </div>
+)
+
+const form = (
+    <div className='form'>  
+          <div>
+          <input type='text' placeholder='firstname'></input>
+           <input type='text' placeholder='lastname'></input>
+           <input type='email' placeholder='email'></input>
+          </div>
+          <button className='btn'>Subscribe</button>
+    </div>
+)
+
+const app = (
+  <div className='app'>
+    {header}
+    {form}
+  </div>
+)
+
+
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(app,rootElement)
+
+```
+
+<img src="../src/image/level2_2.png" />
+
+
 ![News Letter](../images/news_letter_design.png)
 
 ## Exercises: Level 3

@@ -2,25 +2,35 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-
-import html from './image/html_logo.png'
-import css from './image/css_logo.png'
-import js from './image/js_logo.png'
-import react from './image/react_logo.png'
+import image from './image/nevzat.jpg'
 
 
-const frontend = (
-    <div className='front-end'>
-        <h3>Front End Tecnologies</h3>
-       <div>
-        <img src={html} alt=""/>
-        <img src={css} alt=""/>
-        <img src={js} alt=""/>
-        <img src={react} alt=""/>
-        </div>
-    </div>
+const header = (
+    <header className='header'>
+      <div className='img-wrapper'>
+      <img src={image} alt=''/>
+      </div>
+      <h1>Nevzat Atalay</h1>
+    </header>
 )
+
+// const main = (
+//   <header className='main'>
+
+//   </header>
+// )
+// const footer = (
+//   <header className='footer'>
+
+//   </header>
+// )
+
+// const app = ( 
+//   {header},
+//   // {main},
+//   // {footer}
+// )
 
 const rootElement = document.getElementById('root')
 // we render the JSX element using the ReactDOM package
-ReactDOM.render(frontend,rootElement)
+ReactDOM.render(header,rootElement)

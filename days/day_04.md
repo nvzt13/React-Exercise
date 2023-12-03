@@ -18,7 +18,7 @@ React Components are building blocks that shape the user interface, have specifi
 
 3. How do you make a React functional component?
 
-```
+```js
 // React Function component syntax
 // it can be arrow function, function declaration or function expression
 
@@ -34,7 +34,7 @@ Functional components, unlike class components, do not have features such as sta
 ```
 5. How small is a React component?
 
-```
+```js
 // This is a small components
 
 const Button = () => <button> action </button>
@@ -48,19 +48,19 @@ const Button = () => <button> action </button>
 ```
 7. Make a reusable Button component.
 
-```
+```js
 // Button components
 const Button = () => <button> action </button>
 ```
 8. Make a reusable InputField component.
 
-```
+```js
 // Input components
 const Imput = () => <input> action </input>
 ```
 9. Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
 
-```
+```js
 // style.css
 body{
   background-color: rgb(71, 71, 69);
@@ -113,7 +113,7 @@ ReactDOM.render(app,rootElement)
 
 1. Create functional components and display the following images
 
-```
+```js
 // sttyle.css
 
 body{
@@ -186,7 +186,7 @@ ReactDOM.render(<Main />,rootElement)
 <img src="../src/image/day4_level2_1.png"/>
 2. Use functional component to create the following design
 
-```
+```js
 // style.css 
 
 *{
@@ -249,7 +249,7 @@ ReactDOM.render(<Main />,rootElement)
 
 1.  Use the given hexadecimal color generator in the example to create these random colors
 
-```
+```js
 // style.css
 
 *{
@@ -309,7 +309,7 @@ ReactDOM.render(app ,rootElement)
 
 2. Use functional component to design the following user card.
 
-```
+```js
 // style.css
 
 *{

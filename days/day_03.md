@@ -58,27 +58,11 @@ added
 
 1. Import and render the following images
    
-```
+```js
 
-  // index.html 
-  <!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <title>30 Days Of React App</title>
+  // style.css
 
-    <style>
+
    body{
     display: flex;
     align-items: center;
@@ -103,20 +87,16 @@ added
     width: 10%;
   }
 
-    </style>
-  </head>
-  
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+  // index.js
 
-   // index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
+
 // To get the root element from the HTML document
+
 import html from './image/html_logo.png'
 import css from './image/css_logo.png'
+
 import js from './image/js_logo.png'
 import react from './image/react_logo.png'
 
@@ -142,7 +122,7 @@ ReactDOM.render(frontend,rootElement)
 
 2. Use h1, p, input and button HTML elements to create the following design using JSX
 
-```
+```js
 <!-- index.html -->
 
 <!DOCTYPE html>
@@ -248,7 +228,7 @@ ReactDOM.render(app,rootElement)
 
 1. Design the following user card.
 
-```
+```js
 //style.css
 
 *{
@@ -303,7 +283,6 @@ body{
 }
 
 //index.js
-
 
 import React from 'react'
 import ReactDOM from 'react-dom'

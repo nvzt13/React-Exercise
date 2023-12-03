@@ -242,14 +242,121 @@ ReactDOM.render(app,rootElement)
 <img src="../src/image/level2_2.png" />
 
 
-![News Letter](../images/news_letter_design.png)
-
 ## Exercises: Level 3
 
 1. Design the following user card.
 
-![User Card](../images/user_card_design_jsx.png)
+```
+//style.css
 
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color:whitesmoke;
+  }
+
+/* header css  */
+
+ 
+  .header .img-wrapper{
+    width:300px;
+    height: 300px;    
+  }
+  .header .tic{
+    position: absolute;
+    top: 328px;
+    left: 240px;
+    border-radius: 50%;
+    width: 30px;
+    }
+  .header .img-wrapper img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 50% 38%;
+  }
+
+/* main css  */
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.main ul li{
+    padding: 10px 16px;
+    border: 1px solid black;
+    margin: 0 8px;
+    border-radius: 10px;
+    background-color:rgb(12, 222, 230);
+    color: #fff;
+    font-weight: 600;
+}
+
+//index.js
+
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import style from  './style.css'
+import image from './image/nevzat.jpg'
+
+import tic from './image/circle-check-solid.svg'
+
+const header = (
+    <header className='header'>
+      <div className='img-wrapper'>
+      <img src={image} alt=''/>
+      </div>
+      <h1>Nevzat Atalay</h1>
+      <img src={tic} alt='' className='tic'></img>
+      <p>Senior developer, TURKEY</p>
+    </header>
+)
+
+const main = (
+  <header className='main'>
+      <h3>SKILLS</h3>
+      <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>NODE</li>
+      <li>Phyton</li>
+      <li>TypeScript</li>
+      <li>SQL</li>
+      <li>MongoDB</li>
+    </ul>
+  </header>
+)
+
+const footer = (
+  <header className='footer'>
+    <p>Joined on Des 3, 2023</p>
+  </header>
+)
+
+const app = ( 
+<div className='app'>
+  {header}
+  {main}
+  {footer}
+</div>
+)
+
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(app,rootElement)
+```
+<img src="../src/image/level3_1.png"/>
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 2](../02_Day_Introduction_to_React/02_introduction_to_react.md) | [Day 4 >>](../04_Day_Components/04_components.md)

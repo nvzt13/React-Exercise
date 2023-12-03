@@ -12,7 +12,7 @@
 ### [Exercises: JSX Elements](#exercise-jsx-elements)
 ### [Exercises: Inline Style](#exercise-inline-style)
 ### [Exercises: Internal Styles](#exercise-internal-style)
-### [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
+### [Exercise:Inject data to JSX](#exercise-inject-data-to-jsx)
 
 ### Exercise What is React
 

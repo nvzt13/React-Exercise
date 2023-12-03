@@ -127,13 +127,13 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 2. Write your name in a JSX element and store it in a name variable
 
-```
+```js
    const name = <h1> Nevzat </h1
 ```
 
 3. Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
 
-```
+```js
  const user = (
      <div>
         <h1>Nevzat Atalay</h1>
@@ -147,7 +147,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 4. Write a footer JSX element
 
-```
+```js
       const footer = (
         <footer>
           <div className='footer-wrapper'>
@@ -160,7 +160,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 1. Create a style object for the main JSX
 
-```
+```js
  const main = (
      <div 
      style = {{border: '2px solid red', color:'white', background:'tomato'}} >
@@ -175,7 +175,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 2. Create a style object for the footer and app JSX
 
-```
+```js
       const footer = (
         <footer
           style = {{font-size: 18px, color:'white', background:'red'}}>
@@ -187,7 +187,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 3. Add more styles to the JSX elements
 
-```
+```js
       const footer = (
         <footer
           style = {{font-size: 18px, color:'white', background:'red',display:'flex'}}>
@@ -202,7 +202,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 
 1. Apply different styles to your JSX elements
 
-```
+```js
 const style =  { border: '2px solid orange', color: 'black', fontSize: '18px' } 
 
 const main = (
@@ -220,7 +220,7 @@ const main = (
 
 1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
 
-```
+```js
 //Injecting Strring
 
 const welcome = 'Welcome to 30 Days Of React Exercise'

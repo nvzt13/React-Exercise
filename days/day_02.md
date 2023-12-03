@@ -1,13 +1,13 @@
 
 # Exercise Day 2
 
-## [Exercise: What is React?](#exercise:-what-is-react?)
-## [Exercises: Why React?](#exercises:-why-react?)
-## [Exercises: JSX](#exercises:-jsx)
-## [Exercises: JSX Elements](#exercises:-jsx-elements)
-## [Exercises: Inline Style](#exercises:-inline-style)
-## [Exercises: Internal Styles](#exercises:-inline-style)
-## [Exercise: Inject data to JSX](#exercise:-inject-data-to-JSX)
+### [Exercise: What is React?](#exercise:-what-is-react?)
+### [Exercises: Why React?](#exercises:-why-react?)
+### [Exercises: JSX](#exercises:-jsx)
+### [Exercises: JSX Elements](#exercises:-jsx-elements)
+### [Exercises: Inline Style](#exercises:-inline-style)
+### [Exercises: Internal Styles](#exercises:-inline-style)
+### [Exercise: Inject data to JSX](#exercise:-inject-data-to-JSX)
 
 ### Exercise: What is React?
 
@@ -289,3 +289,5 @@ const main = (
       )
 
 ```
+
+[Day 3 >>>](day_03.md)

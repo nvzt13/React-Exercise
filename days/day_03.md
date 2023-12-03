@@ -1,4 +1,4 @@
-# Exercises
+# Exercises Day 3
 
 ## Exercises: Level 1
 
@@ -358,6 +358,6 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(app,rootElement)
 ```
 <img src="../src/image/level3_1.png"/>
-🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 2](../02_Day_Introduction_to_React/02_introduction_to_react.md) | [Day 4 >>](../04_Day_Components/04_components.md)
+
+[Day 3 >>>](day_04.md)

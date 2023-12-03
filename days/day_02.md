@@ -220,7 +220,7 @@ const main = (
 
 1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
 
-```
+```js
 //Injecting Strring
 
 const welcome = 'Welcome to 30 Days Of React Exercise'

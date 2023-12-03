@@ -1,8 +1,14 @@
-[< <  Day 2](day_02.md) | [Day 4 >>>](day_04.md) <br>
+# Exercises Day 3 - Setting Up
 
-# Exercises Day 3
+## [Home](../README.md) | [<< Day 2](day_02.md) | [Day 4 >>](day_04.md) 
 
-## Exercises: Level 1
+
+### [Exercise Level 1](#exercises-level-1)
+### [Exercise Level 2](#exercises-level-2)
+### [Exercise Level 3](#exercises-level-3)
+
+
+## Exercises Level 1
 
 1. What is a module?
 
@@ -54,7 +60,8 @@ added
 ```
 10. Try to make a different custom module in a different file and import it to index.js.
 
-## Exercises: Level 2
+## Exercises Level 2
+
 
 1. Import and render the following images
    
@@ -224,7 +231,7 @@ ReactDOM.render(app,rootElement)
 <img src="../src/image/level2_2.png" />
 
 
-## Exercises: Level 3
+## Exercises Level 3
 
 1. Design the following user card.
 
@@ -340,6 +347,4 @@ ReactDOM.render(app,rootElement)
 ```
 <img src="../src/image/level3_1.png"/>
 
-[< <  Day 2](day_02.md) | [Day 4 >>>](day_04.md) <br>
-
-[< <  Home > >](../README.md) 
+## [Home](../README.md) | [<< Day 2](day_02.md) | [Day 4 >>](day_04.md) 

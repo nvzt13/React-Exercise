@@ -1,9 +1,12 @@
-
-[< <  Day 3](day_03.md) | [Day 5 >>>](day_05.md) <br>
-
 # Exercises Day 4
 
-## Exercises: Level 1
+## [Home](../README.md) | [<< Day 3](day_03.md) | [Day 5 >>](day_05.md) 
+
+### [Exercises Level 1](#exercises-level-1)
+### [Exercises Level 2](#exercises-level-2)
+### [Exercises Level 3](#exercises-level-3)
+
+## Exercises Level 1
 
 1. What is the difference between a regular function and an arrow function?
 
@@ -109,7 +112,7 @@ ReactDOM.render(app,rootElement)
 }
 ```
 
-## Exercises: Level 2
+## Exercises Level 2
 
 1. Create functional components and display the following images
 
@@ -245,7 +248,7 @@ ReactDOM.render(<Main />,rootElement)
 
 <img src="../src/image/day4_level2_2.png"/>
 
-## Exercises: Level 3
+## Exercises Level 3
 
 1.  Use the given hexadecimal color generator in the example to create these random colors
 
@@ -436,6 +439,4 @@ ReactDOM.render(app ,rootElement)
 ```
 <img src="../src/image/day4_level3_2.png"/>
 
-[< <  Day 3](day_03.md) | [Day 5 >>>](day_05.md) <br>
-
-[< <  Home > >](../README.md) 
+## [Home](../README.md) | [<< Day 3](day_03.md) | [Day 5 >>](day_05.md) 

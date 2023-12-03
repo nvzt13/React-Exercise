@@ -1,17 +1,20 @@
-[< <  Day 1](day_01.md) | [Day 3 >>>](day_03.md) <br>
+
+# Exercise Day 2 - Getting Started React
 
 
-# Exercise Day 2
+## [Home](../README.md) | [<< Day 1](day_01.md) | [Day 3 >>](day_03.md) 
 
-### [Exercise: What is React?](#exercise:-what-is-react?)
-### [Exercises: Why React?](#exercises:-why-react?)
-### [Exercises: JSX](#exercises:-jsx)
-### [Exercises: JSX Elements](#exercises:-jsx-elements)
-### [Exercises: Inline Style](#exercises:-inline-style)
-### [Exercises: Internal Styles](#exercises:-inline-style)
-### [Exercise: Inject data to JSX](#exercise:-inject-data-to-JSX)
 
-### Exercise: What is React?
+
+### [Exercise: What is React?](#exercise-what-is-react)
+### [Exercises: Why React?](#exercise-why-react)
+### [Exercises: JSX](#exercise-jsx)
+### [Exercises: JSX Elements](#exercise-jsx-elements)
+### [Exercises: Inline Style](#exercise-inline-style)
+### [Exercises: Internal Styles](#exercise-internal-style)
+### [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
+
+### Exercise What is React
 
 1. What is React?
 
@@ -59,7 +62,7 @@ The virtual DOM is a lightweight copy of the real DOM that allows React to make 
 A website is a collection of web pages defined by a domain name (google.com, etc.) and hosted on at least one web server.
 ```
 
-## Exercises: Why React?
+## Exercise Why React
 
 1. Why did you chose to use react?
 
@@ -79,7 +82,7 @@ I'm watching the star forks and moves of github libraries
 As per StackOverflow Survey 2022, React is the favourite framework of 40.14% of developers, Angular with 22.96%, and Vue with 18.97% of developers.
 ```
 
-## Exercises: JSX
+## Exercise JSX
 
 1. What is an HTML element?
 
@@ -117,7 +120,7 @@ Babel is a javascript transcompiler. In other words, it is used to translate a c
 A transcompiler or transpiler is a type of translator that takes as input the source code of a program written in a programming language and produces an equivalent source code in the same or a different programming language. Source-to-source translator is also known as source-to-source compiler.
 ```
 
-## Exercises: JSX Elements
+## Exercise JSX Elements
 
 1. What is a JSX element?
 
@@ -156,7 +159,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
       )
 ```
 
-## Exercises: Inline Style
+## Exercise Inline Style
 
 1. Create a style object for the main JSX
 
@@ -198,7 +201,7 @@ It is a syntax extension for JavaScript that allows developers to write HTML-lik
 ```
 
 
-## Exercises: Internal Styles 
+## Exercise Internal Style
 
 1. Apply different styles to your JSX elements
 
@@ -216,7 +219,7 @@ const main = (
 )
 ```
 
-## Exercise: Inject data to JSX
+## Exercise Inject data to JSX
 
 1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
 
@@ -292,5 +295,4 @@ const main = (
 
 ```
 
-[< <  Day 2](day_02.mdmd) | [Day 3 >>>](day_03.md) <br>
-[< <  Home > >](../README.md) 
+## [Home](../README.md) | [<< Day 1](day_01.md) | [Day 3 >>](day_03.md) 

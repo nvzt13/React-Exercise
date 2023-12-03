@@ -1,3 +1,5 @@
+[< <  Day 2](day_02.md) | [Day 4 >>>](day_04.md) <br>
+
 # Exercises Day 3
 
 ## Exercises: Level 1
@@ -359,5 +361,6 @@ ReactDOM.render(app,rootElement)
 ```
 <img src="../src/image/level3_1.png"/>
 
+[< <  Day 2](day_02.md) | [Day 4 >>>](day_04.md) <br>
 
-[Day 4 >>>](day_04.md)
+[< <  Home > >](../README.md) 

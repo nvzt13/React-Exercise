@@ -1,3 +1,5 @@
+[< <  Day 1](day_01.md) | [Day 3 >>>](day_03.md) <br>
+
 
 # Exercise Day 2
 
@@ -290,4 +292,5 @@ const main = (
 
 ```
 
-[Day 3 >>>](day_03.md)
+[< <  Day 2](day_02.mdmd) | [Day 3 >>>](day_03.md) <br>
+[< <  Home > >](../README.md) 

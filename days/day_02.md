@@ -47,12 +47,7 @@
 
 
 ### [Exercises: Internal Styles](#exercise-internal-style)
-
-1. Apply different styles to your JSX elements
-
 ### [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
-
-1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
 
 ### Exercise What is React
 

@@ -3,38 +3,8 @@
 ## [Home](../README.md) | [<< Day 3](day_03.md) | [Day 5 >>](day_05.md) 
 
 ### [Exercises Level 1](#exercises-level-1)
-
-
-1. What is the difference between a regular function and an arrow function?
-2. What is a React Component?
-3. How do you make a React functional component?
-4. What is the difference between a pure JavaScript function and a functional component?
-5. How small is a React component?
-6. Can we make a button or input field component?
-7. Make a reusable Button component.
-8. Make a reusable InputField component.
-9. Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
-
 ### [Exercises Level 2](#exercises-level-2)
-
-1. Create functional components and display the following images
-
-<img src="../src/image/day4_level2_1.png"/>
-
-2. Use functional component to create the following design
-
-<img src="../src/image/day4_level2_2.png"/>
-
 ### [Exercises Level 3](#exercises-level-3)
-
-1.  Use the given hexadecimal color generator in the example to create these random colors
-
-<img src="../src/image/day4_level3_1.png"/>
-
-
-2. Use functional component to design the following user card.
-
-<img src="../src/image/day4_level3_2.png"/>
 
 ## Exercises Level 1
 

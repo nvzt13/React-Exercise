@@ -1,58 +1,27 @@
-// index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.css'
 
-import nevzat from './image/nevzat.jpg'
-import tic from './image/circle-check-solid.svg'
+// Header Component
+const Header = (props) => {
+  console.log(props) // empty object, {}
+  return (
+    <header>
+      <div className='header-wrapper'>
+      </div>
+    </header>
+  )
+}
 
-
-
-const Header = () => (
-  <div className='header'> 
-    <div className='img-wrapper'>
-      <img src={nevzat} alt=''/>
+// The App, or the parent or the container component
+// Functional Component
+const App = () => {
+  return (
+    <div className='app'>
+      <Header />
     </div>
-    <div className='substr'>
-      <h3>Nevzat Atalay</h3>
-      <img className='tic' src={tic} alt=''/>
-    </div>
-    <p>Senior Developer, Turkey</p>
-  </div>
-)
-const Main = () => (
-  <header className='main'>
-      <h3>SKILLS</h3>
-      <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>NODE</li>
-      <li>Phyton</li>
-      <li>TypeScript</li>
-      <li>SQL</li>
-      <li>MongoDB</li>
-    </ul>
-  </header>
-)
-
-const Footer = () =>  (
-  <header className='footer'>
-    <p>Joined on Des 3, 2023</p>
-  </header>
-)
-
-
-const app = (
-<>
-    <Header/>
-    <Main/>
-    <Footer/>
-</>
-
-)
+  )
+}
 
 const rootElement = document.getElementById('root')
-// we render the JSX element using the ReactDOM package
-ReactDOM.render(app ,rootElement)
+
+ReactDOM.render(<App />, rootElement)

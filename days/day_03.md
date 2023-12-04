@@ -4,8 +4,23 @@
 
 
 ### [Exercise Level 1](#exercises-level-1)
+
+1. Import and render the following images
+
+<img src="../src/image/level2_1.png"/>
+
 ### [Exercise Level 2](#exercises-level-2)
+
+Use h1, p, input and button HTML elements to create the following design using JSX
+
+<img src="../src/image/level2_2.png"/>
+
 ### [Exercise Level 3](#exercises-level-3)
+
+1. Design the following user card.
+
+<img src="../src/image/level3_1.png"/>
+
 
 
 ## Exercises Level 1

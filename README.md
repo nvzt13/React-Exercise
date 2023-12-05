@@ -7,7 +7,7 @@
 | 04    |                                     [Components](./days/day_04.md)                  |
 | 05    |                                             [Props](./days/day_05.md)               |
 | 06    |                              [List, Map and Keys](./days/day_06.md)                 |
-| 07    |                            [Class Components](./days/day_07.md)                     |
+| 07    |                            [Class Components](./days/days_07.md)                     |
 | 08    |                                           [States](./days/day_08.md)                |
 | 09    |                     [Conditional Rendering](./days/day_09.md)                       |
 | 10    |         [React Project Folder Structure](./days/day_10.md)                          |

@@ -1,36 +1,13 @@
 # Exercises Day 6 -Mapping Arrays
 
-## [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 
 
+## Exercise Answers
 
+- ### [Exercises:Level 1](#exercises-level-1)
+- ### [Exercises Level 2](#exercises-level-2)
+- ### [Exercises:Level 3](#exercises-level-3)
 
-### [Exercises:Level 1](#exercises-level-1)
-
-1. Why you need to map an array ?
-2. Why we need keys during mapping an array ?
-3. What is the importance of destructuring your code ?
-4. Does destructuring make your code clean and easy to read ?
-### [Exercises Level 2](#exercises-level-2)
-
-1. In the following design, evens are green, odds are yellow and prime numbers are red. Build the following colors using React component
-Number Generator
-
-
-
-2. Create the following hexadecimal colors using React component
-Number Generator
-
-
-
-### [Exercises:Level 3](#exercises-level-3)
-
-1. Make the following bar group using the given data
-
-## [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 
-
-
-
-//____________________________________________________//
+### [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 
 
 ### Exercises Level 1
 
@@ -212,4 +189,4 @@ root.render(<HexaColor />)
 
 1. Make the following bar group using the given data
 
-## [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 
+### [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 

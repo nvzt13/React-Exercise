@@ -1,40 +1,16 @@
 
 # Exercises Day 5
 
-## [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 
+## Exercise  Answers
 
-### [Exercises Level 1](#exercises-level-1)
-
-1. What is props in a React component ?
-2. How do you access props in a React component ?
-3. What data types can we pass as props to components ?
-4. What is a propTypes?
-5. What is a default propTypes?
-
-### [Exercises Level 2](#exercises-level-2)
-
-1. Create a functional component and display the following images
-
-     ![Front end](../src/image/day4_level2_1.png)
+- ### [Exercises:Level 1](#exercises-level-1)
+- ### [Exercises:Level 2](#exercises-level-2)
+- ### [Exercises:Level 3](#exercises-level-3)
 
 
-2. Use functional component to create the following design
+### [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 
 
-![News Letter](../src/image/day4_level2_2.png)
-
-### [Exercises Level 3](#exercises-level-3)
-
-1.  Use the given hexadecimal color generator in the example to create these random colors. If you don't know how to generate the hexadecimal color you can use [dummy data generator](https://www.30daysofreact.com/dummy-data)
-
-![Hexadecimal colors](../src/image/day4_level3_1.png)
-
-2. Use functional component to design the following user card.
-
-![User Card](../src/image/day4_level3_2.png)
-
-
-
-## Exercises: Level 1
+## Exercises Level 1
 
 1. What is props in a React component ?
 
@@ -94,7 +70,7 @@ propTypes means the object in which the keys represent the props accepted by the
 Default props ; If a value does not appear for a props, the previously determined values are written instead of the values of those props that do not appear.
 ```
 
-## Exercises: Level 2
+## Exercises Level 2
 
 1. Create a functional component and display the following images
 
@@ -104,7 +80,7 @@ Default props ; If a value does not appear for a props, the previously determine
 
 ![News Letter](./src/image/day4_level2_2.png)
 
-## Exercises: Level 3
+## Exercises Level 3
 
 1.  Use the given hexadecimal color generator in the example to create these random colors. If you don't know how to generate the hexadecimal color you can use [dummy data generator](https://www.30daysofreact.com/dummy-data)
 
@@ -115,4 +91,4 @@ Default props ; If a value does not appear for a props, the previously determine
 ![User Card](./src/image/day4_level3_2.png)
 
 
-## [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 
+### [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 

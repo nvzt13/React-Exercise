@@ -1,31 +1,17 @@
 
 Day 7 Components
 
-## [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) 
 
+## Exercises Answers
 
 ## [Exercises:Level 1](#exercises-answers-level-1)
-
-
-1. How do you write a pure JavaScript function
-2. What is inheritance and how do you make a child from a parent class?
-3. What is class based React component ?
-4. What is the difference between functional React component and class based React component ?
-5. When do we need to use class based components instead of functional components
-6. What is the use cases of class based component ?
-7. Which type of component do use most frequently ? functional or class-based component
-8. What is React life cycle ? (not covered yet) ?
-9. What is state in React ? (not covered yet)
-
 ## [Exercises:Level 2](#exercises-answers-level-2)
+## [Exercises:Level 3](#exercises-answers-level-3
 
-Learn more about class based component by changing previous days exercises to class based components
+### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) 
 
-## [Exercises:Level 3](#exercises-answers-level-2)
 
-Coming ...
 
-# Exercises Answers
 
 ### Exercises Answers Level 1
 
@@ -75,3 +61,11 @@ In React, components have a lifecycle consisting of different stages. Each phase
 ```
 The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.10 Apr 2023
 ```
+
+## Exercises Level 2
+
+Learn more about class based component by changing previous days exercises to class based components
+
+## Exercises Level 3
+
+Coming ...

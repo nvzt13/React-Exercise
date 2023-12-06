@@ -8,9 +8,9 @@
 - ### [Exercises:Level 3](#exercises-level-3)
 
 
-### [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 
+### [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md)<hr> 
 
-## Exercises Level 1
+### Exercises Level 1
 
 1. What is props in a React component ?
 

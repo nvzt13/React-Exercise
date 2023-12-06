@@ -7,10 +7,10 @@
 - ### [Exercises:Level 2](#exercises-level-2)
 
 
-### [Home](../README.md) | [<< Day 3](day_03.md) | [Day 5 >>](day_05.md) 
+### [Home](../README.md) | [<< Day 3](day_03.md) | [Day 5 >>](day_05.md) <hr>
 
 
-## Exercises Level 1
+### Exercises Level 1
 
 1. What is the difference between a regular function and an arrow function?
 

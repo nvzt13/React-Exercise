@@ -1,14 +1,14 @@
 
-Day 7 Components
+# Day 7 Components
 
 
 ## Exercises Answers
 
-## [Exercises:Level 1](#exercises-answers-level-1)
-## [Exercises:Level 2](#exercises-answers-level-2)
-## [Exercises:Level 3](#exercises-answers-level-3)
+- ### [Exercises:Level 1](#exercises-answers-level-1)
+- ### [Exercises:Level 2](#exercises-answers-level-2)
+- ### [Exercises:Level 3](#exercises-answers-level-3)
 
-### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) 
+### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) <hr>
 
 
 
@@ -69,3 +69,5 @@ Learn more about class based component by changing previous days exercises to cl
 ## Exercises Level 3
 
 Coming ...
+
+### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) 

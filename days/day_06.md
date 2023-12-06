@@ -7,7 +7,7 @@
 - ### [Exercises Level 2](#exercises-level-2)
 - ### [Exercises:Level 3](#exercises-level-3)
 
-### [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) 
+### [Home](../README.md) | [<< Day 5](day_05.md) | [Day 7 >>](day_07.md) <hr>
 
 ### Exercises Level 1
 

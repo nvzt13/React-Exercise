@@ -305,4 +305,4 @@ const main = (
 
 ```
 
-## [Home](../README.md) | [<< Day 1](day_01.md) | [Day 3 >>](day_03.md) 
+### [Home](../README.md) | [<< Day 1](day_01.md) | [Day 3 >>](day_03.md) 

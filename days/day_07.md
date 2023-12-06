@@ -4,16 +4,16 @@
 
 ## Exercises Answers
 
-- ### [Exercises:Level 1](#exercises-answers-level-1)
-- ### [Exercises:Level 2](#exercises-answers-level-2)
-- ### [Exercises:Level 3](#exercises-answers-level-3)
+- ### [Exercises:Level 1](#exercises-level-1)
+- ### [Exercises:Level 2](#exercises-level-2)
+- ### [Exercises:Level 3](#exercises-level-3)
 
 ### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) <hr>
 
 
 
 
-### Exercises Answers Level 1
+### Exercises Level 1
 
 1. How do you write a pure JavaScript function
 ```

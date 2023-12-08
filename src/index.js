@@ -134,7 +134,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer>
+      <footer style={this.props.state}>
         <div className='footer-wrapper'>
           <p>Copyright {this.props.date.getFullYear()}</p>
         </div>
@@ -205,8 +205,8 @@ class App extends React.Component {
 
     return (
       <div className='app'>
-        {this.state.backgroundColor}
-        <Header data={data} />
+    
+        <Header data={data} state={this.state.backgroundColor} />
         <Main
           user={user}
           techs={techs}
@@ -217,7 +217,7 @@ class App extends React.Component {
           minusOne={this.minusOne}
           count={this.state.count}
         />
-        <Footer date={new Date()} />
+        <Footer date={new Date()} state=    {this.state.backgroundColor}/>
       </div>
     )
   }

@@ -6,8 +6,6 @@ button{
     padding: 10px 100px;
     background-color: brown;
     position: absolute;
-    bottom: 10px;
-    left: 50%;
     color: #fff;
     border-radius: 10px;
 }

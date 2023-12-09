@@ -35,105 +35,7 @@ Bu, setState() yöntemi kullanılarak yapılır. setState() yöntemi, bileşen d
 1. Use React state to change the background of the page. You can use this technique to apply a dark mode for your portfolio.
 
 ```js
-// style.css
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color:#fff
-  }
-
-  html,
-  body {
-    height: 100%;
-    line-height: 1.5;
-    font-family: 'Montserrat';
-    font-weight: 300;
-    color: black;
-  }
-
-  .root {
-    min-height: 100%;
-    position: relative;
-  }
-
-  .header-wrapper,
-  .main-wrapper,
-  .footer-wrapper {
-    width: 85%;
-    margin: auto;
-  }
-
-  .header-wrapper,
-  .main-wrapper {
-    padding: 10px;
-    margin: 2px auto;
-  }
-
-  h1 {
-    font-size: 70px;
-    font-weight: 300;
-  }
-
-  h2,
-  h3 {
-    font-weight: 300;
-  }
-
-  header {
-    /* background-color: #61dbfb; */
-    padding: 10px;
-    background: #6cf;
-
-  }
-
-  main {
-    padding: 10px;
-    padding-bottom: 60px;
-    /* Height of the footer */
-  }
-
-  ul {
-    margin-left: 15px;
-  }
-
-  ul li {
-    list-style: none;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    /* Height of the footer */
-     background: #6cf; 
-  }
-
-  .footer-wrapper {
-    width: 200px;
-    height: 200px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 60px;
-  }
-  img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: 50% 37%;
-  }
-  img{
-    width: 150px;
-  }
-
-  .Footer{
-    background-color: #6cf;
-  }
-  
-  // index.js
-
+// index.js
 
 import React from "react";
 import { createRoot } from 'react-dom/client';
@@ -172,11 +74,6 @@ const buttonStyles = {
 
 // class based component
 class Header extends React.Component {
-  constructor(props) {
-    super(props)
-    // the code inside the constructor run before any other code
-    this.state=props.state
-  }
   render() {
     console.log(this.props.data)
     const {
@@ -188,7 +85,7 @@ class Header extends React.Component {
     } = this.props.data
 
     return (
-      <header  style={{backgroundColor:this.props.state.backgroundColor,color:this.props.state.backgroundColor}}>
+      <header  style={{backgroundColor:this.props.state.backgroundColor,color:this.props.state.color}}>
         <div className='header-wrapper'>
           <h1>{welcome}</h1>
           <h2>{title}</h2>
@@ -216,11 +113,6 @@ const Count = ({ count, addOne, minusOne }) => (
 // TechList Component
 // class base component
 class TechList extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state=props.state
-
-  }
   render() {
     const { techs } = this.props
     const techsFormatted = techs.map((tech) => <li key={tech}>{tech}</li>)
@@ -276,14 +168,10 @@ class Main extends React.Component {
 // Footer Component
 // Class component
 class Footer extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state=props.state
-
-  }
+  
   render() {
     return (
-      <footer  style={{backgroundColor:this.props.state.backgroundColor,color:this.props.state.backgroundColor}}>
+      <footer  style={{backgroundColor:this.props.state.backgroundColor,color:this.props.state.color}}>
         <div className='footer-wrapper'>
           <p>Copyright {this.props.date.getFullYear()}</p>
         </div>
@@ -296,9 +184,8 @@ class App extends React.Component {
   state = {
     count: 0,
     styles:{
-      backgroundColor: '',
-      color: '',
-    
+      backgroundColor:'',    
+      color:'',    
     }
   }
   showDate = (time) => {
@@ -337,10 +224,10 @@ class App extends React.Component {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
   changeBackground = () => {
-    if(this.state.backgroundColor === "" &&this.state.color===""){
-      this.setState({backgroundColor:"#181818",color:"red"})
+    if(this.state.backgroundColor===""){
+      this.setState({backgroundColor:"#101010", color:"#fff"})
     }else{
-      this.setState({backgroundColor:"",color:""})
+      this.setState({backgroundColor:"", color:""})
     }
   }
   render() {
@@ -358,7 +245,7 @@ class App extends React.Component {
     // copying the author from data object to user variable using spread operator
     const user = { ...data.author, image: nevzat }
     return (
-      <div className='app'  style={{backgroundColor:this.state.backgroundColor}}>
+      <div className='app'  style={{backgroundColor:this.state.backgroundColor ,color:this.state.color}}>
         {this.state.backgroundColor}
         <Header data={data}  state={this.state}/>
         <Main
@@ -376,10 +263,10 @@ class App extends React.Component {
     )
   }
 }
-
   const domNode = document.getElementById('root');
   const root = createRoot(domNode);
   root.render(<App />);
+
 ```
 
 <img src="../src/image/day8_level2_1.png"/>

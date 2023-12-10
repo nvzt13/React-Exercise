@@ -1,6 +1,15 @@
-## Exercises
+# Day 9   - Conditional Rendering
 
-### Exercises: Level 1
+## Exercises Answers
+
+- ### [Exercises:Level 1](#exercises-level-1)
+- ### [Exercises:Level 2](#exercises-level-2)
+- ### [Exercises:Level 3](#exercises-level-3)
+
+### [Home](../README.md) | [<< Day 8](./day_08.md) | [Day 10 >>](./day_10.md/) <hr>
+
+### Exercises Level 1
+
 
 1. What is conditional rendering?
 ```
@@ -15,7 +24,7 @@ Conditional rendering in React works the same way conditions work in JavaScript.
 I prefer the ternary operator
 ```
 
-### Exercises: Level 2
+### Exercises Level 2
 
 1. Make a single page application which changes the body of the background based on the season of the year(Autumn, Winter, Spring, Summer)
 ```js
@@ -168,6 +177,9 @@ root.render(<App />);
 
 ```
 
-### Exercises: Level 3
+### Exercises Level 3
 
 1. Fetching data takes some amount of time. A user has to wait until the data get loaded. Implement a loading functionality of a data is not fetched yet. You can simulate the delay using setTimeout.
+
+
+### [Home](../README.md) | [<< Day 8](./day_08.md) | [Day 10 >>](./day_10.md/) <hr>

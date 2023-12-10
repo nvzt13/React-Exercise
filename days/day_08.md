@@ -6,7 +6,7 @@
 - ### [Exercises:Level 2](#exercises-level-2)
 - ### [Exercises:Level 3](#exercises-level-3)
 
-### [Home](../README.md) | [<< Day 6](day_06.md) | [Day 8 >>](day_08.md) <hr>
+### [Home](../README.md) | [<< Day 7](day_07.md) | [Day 9 >>](day_09.md) <hr>
 
 ### Exercises Level 1
 
@@ -278,3 +278,6 @@ class App extends React.Component {
 ### Exercises Level 3
 
 Coming
+
+
+### [Home](../README.md) | [<< Day 7](day_07.md) | [Day 9 >>](day_09.md) 

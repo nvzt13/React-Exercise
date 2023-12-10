@@ -13,3 +13,10 @@ button:hover{
     background-color: yellow;
     color: black;
 }
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 38%;
+    border-radius: 50%;
+}

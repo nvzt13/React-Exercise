@@ -67,6 +67,38 @@ onsubmit event is used on the form
 ## Exercises Level 2
 
 Implement the following using onMouseEnter event
+import React, { useState } from "react";
+
+function RandomButton(props) {
+  // Butonun konumunu tutan state
+  const [position, setPosition] = useState({ top: 0, left: 0 });
+
+  // Butonun üzerine gelindiğinde çalışacak fonksiyon
+  function handleHover() {
+    // Rastgele bir konum belirle
+    const randomTop = Math.floor(Math.random() * 300);
+    const randomLeft = Math.floor(Math.random() * 300);
+
+    // Konum state'ini güncelle
+    setPosition({ top: randomTop, left: randomLeft });
+  }
+
+  // Buton komponentini döndüren fonksiyon
+  return (
+    <button
+      style={{
+        position: "absolute",
+        top: position.top + "px",
+        left: position.left + "px",
+      }}
+      onMouseEnter={handleHover}
+    >
+      {props.name}
+    </button>
+  );
+}
+
+export default RandomButton;
 
 ![On mouse enter event](../images/react_event_on_mouse_enter.gif)
 

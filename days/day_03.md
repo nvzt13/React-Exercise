@@ -9,9 +9,6 @@
 
 ### [Home](../README.md) | [<< Day 2](day_02.md) | [Day 4 >>](day_04.md) <hr>
 
-
-
-
  ### Exercises Level 1
 
 1. What is a module?

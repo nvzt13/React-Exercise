@@ -35,6 +35,13 @@ class App extends React.Component {
       const date = time.getDate()
       return `${month} ${date}, ${year}`
     }
+     showCoords(event) {
+      var x = event.clientX;
+      var y = event.clientY;
+      var coords = "X coords: " + x + ", Y coords: " + y;
+      console.log(coords);
+    }
+
     handleTime = () => {
       let message = this.showDate(new Date())
       this.setState({ message })

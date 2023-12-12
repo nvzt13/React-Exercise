@@ -116,3 +116,6 @@ ReactDOM.render(<RandomButton />, domNode);
 ## Exercises Level 3
 
 Coming
+
+### [Home](../README.md) | [<< Day 10](./day_10.md) | [Day 12>>](./day_12.md/) <hr>
+

@@ -66,8 +66,13 @@ onsubmit event is used on the form
 
 ## Exercises Level 2
 
-Implement the following using onMouseEnter event
-import React, { useState } from "react";
+```js 
+// index.js
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./style.css";
+import { useState } from "react";
 
 function RandomButton(props) {
   // Butonun konumunu tutan state
@@ -76,8 +81,8 @@ function RandomButton(props) {
   // Butonun üzerine gelindiğinde çalışacak fonksiyon
   function handleHover() {
     // Rastgele bir konum belirle
-    const randomTop = Math.floor(Math.random() * 300);
-    const randomLeft = Math.floor(Math.random() * 300);
+    const randomTop = Math.floor(Math.random() * 500);
+    const randomLeft = Math.floor(Math.random() * 500);
 
     // Konum state'ini güncelle
     setPosition({ top: randomTop, left: randomLeft });
@@ -90,15 +95,21 @@ function RandomButton(props) {
         position: "absolute",
         top: position.top + "px",
         left: position.left + "px",
+        padding:"15px 100px"
       }}
       onMouseEnter={handleHover}
-    >
+    >   30 Days Of React
       {props.name}
     </button>
   );
 }
 
 export default RandomButton;
+
+const domNode = document.getElementById("root");
+ReactDOM.render(<RandomButton />, domNode);
+
+```
 
 ![On mouse enter event](../images/react_event_on_mouse_enter.gif)
 

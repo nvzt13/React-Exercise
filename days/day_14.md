@@ -28,7 +28,8 @@ React'te yaşam döngülerinin amacı, programcının bileşenlerin çeşitli a�
 ```
 4. What does mounting means?
 ```
-Assembly: Lifecycle methods run when the component is first added to the DOM.```
+Assembly: Lifecycle methods run when the component is first added to the DOM.
+```
 
 5. What does updating means
 ```
@@ -62,17 +63,11 @@ One of React's built-in assembly lifecycle methods can be "componentDidMount". T
 - componentDidUpdate()
 ```
 10. What is the unmounting life cycle method?
+
 ```
 - componentWillUnmount()
 ```
 
-## Exercises: Level 2
-
-Coming
-
-## Exercises: Level 3
-
-Coming
 
 
-### [Home](../README.md) | [<< Day 13](./day_13.md) | [Day 15>>](./day_15.md/) <hr>
+### [Home](../README.md) | [<< Day 13](./day_13.md) | [Day 15>>](./day_15.md/)

@@ -3,6 +3,8 @@
 ## Exercises Answers
 
 - ### [Exercises:Level 1](#exercises-level-1)
+- ### [Exercises:Level 2](#exercises-level-2)
+- ### [Exercises:Level 3](#exercises-level-3)
 
 ### [Home](../README.md) | [<< Day 13](./day_13.md) | [Day 15>>](./day_15.md/) <hr>
 
@@ -68,6 +70,9 @@ One of React's built-in assembly lifecycle methods can be "componentDidMount". T
 - componentWillUnmount()
 ```
 
+### Exercises Level 2
+Coming
 
+### Exercises Level 3
 
 ### [Home](../README.md) | [<< Day 13](./day_13.md) | [Day 15>>](./day_15.md/)

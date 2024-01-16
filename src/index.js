@@ -2,7 +2,10 @@
 
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import './style/output.css'
+import './sass/style.css'
+
+
+
 class App extends Component {
   render() {
     return (

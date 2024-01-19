@@ -4,7 +4,7 @@
 
 - ### [Exercises:Level 1](#exercises-level-1)
 
-### [Home](../README.md) | [<< Day 12](./day_12.md) | [Day 14>>](./day_14.md/) <hr>
+### [Home](../README.md) | [<< Day 12](./day_12.md) | [Day 14>>](./day_14.md) <hr>
 
 
 ## Exercises Level 1

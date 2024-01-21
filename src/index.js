@@ -1,46 +1,38 @@
 import React from 'react';
-import ReactDOM  from 'react-dom';
+import { Component } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-class InputComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            inputValue: ''
-        };
-    }
+// Home component
+const Home = (props) => <h1>Welcome Home</h1>
+// About component
+const About = (props) => <h1>About Us</h1>
+// Contact component
+const Contact = (props) => <h1>Contact us</h1>
+// Challenge component
+const Challenges = (props) => (
+  <div>
+    <h1>30 Days Of React Challenge</h1>
+  </div>
+)
 
-    handleInputChange = (event) => {
-        this.setState({
-            inputValue: event.target.value
-        });
-    }
-
-    render() {
-        const { type } = this.props;
-        return (
-            <div>
-                <input 
-                    type={type} 
-                    value={this.state.inputValue} 
-                    onChange={this.handleInputChange} 
-                />
-            </div>
-        );
-    }
-}
-
-
-const App = () => {
+class App extends Component {
+  render() {
     return (
-        <div>
-            <h2>Input Components</h2>
-            <InputComponent type="text" />
-            <InputComponent type="password" />
-            <InputComponent type="email" />
+      <Router>
+        <div className='App'>
+          <Routes>
+            <Route path='/home' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/challenges' element={<Challenges />} />
+          </Routes>
         </div>
-    );
+      </Router>
+    )
+  }
 }
 
-
-const rootElement = document.getElementById('root')
-ReactDOM.render(<App />, rootElement)
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+root.render(<App />);

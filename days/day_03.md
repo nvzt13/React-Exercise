@@ -126,7 +126,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(frontend,rootElement)
 
 ```
-<img src="../src/image/level2_1..png">
+<img src="../src/image/level2_1.png">
 
 2. Use h1, p, input and button HTML elements to create the following design using JSX
 

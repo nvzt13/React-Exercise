@@ -74,21 +74,21 @@ Default props ; If a value does not appear for a props, the previously determine
 
 1. Create a functional component and display the following images
 
-   ![Front end](./src/image/day4_level2_1.png)
+   ![Front end](../src/image/day4_level2_1.png)
 
 2. Use functional component to create the following design
 
-![News Letter](./src/image/day4_level2_2.png)
+![News Letter](../src/image/day4_level2_2.png)
 
 ## Exercises Level 3
 
 1.  Use the given hexadecimal color generator in the example to create these random colors. If you don't know how to generate the hexadecimal color you can use [dummy data generator](https://www.30daysofreact.com/dummy-data)
 
-![Hexadecimal colors](./src/image/day4_level3_1.png)
+![Hexadecimal colors](../src/image/day4_level3_1.png)
 
 2. Use functional component to design the following user card.
 
-![User Card](./src/image/day4_level3_2.png)
+![User Card](../src/image/day4_level3_2.png)
 
 
 ### [Home](../README.md) | [<< Day 4](day_04.md) | [Day 6 >>](day_06.md) 
